@@ -6,11 +6,8 @@
 }
  
 .pic {
-  /*border: 10px solid #fff;  */
-  float: left;
-  height: 200px;
-  width: 200px;
-  /*margin: 20px;*/
+  max-height: 200px;
+  max-width: 200px;
   overflow: hidden;
    
   -webkit-box-shadow: 5px 5px 5px #111;
@@ -18,9 +15,7 @@
   background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
-  margin-top: 50px; 
-  margin-bottom: 40px;
-  margin-left: 65px;
+  margin-top: 50px;
 }
 
 .amarnath{
